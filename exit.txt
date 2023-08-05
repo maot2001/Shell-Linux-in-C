@@ -1,0 +1,3 @@
+Nuestro shell se cierra cuando se utiliza el comando exit.
+
+En caso de utilizarse en una pipe debe tener en cuenta que el proceso que está cerrando es el hijo del proceso inicial, por tanto no se verán cambios en el proceso inicial.
