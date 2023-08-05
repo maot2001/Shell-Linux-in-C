@@ -1,0 +1,17 @@
+Integrantes: Alejandro Alvarez Lamazares y Marco Ochil Trujillo
+
+Funcionalidades: 
+basic: funcionalidades básicas (3 puntos)
+multi-pipe: multiples tuberías (1 punto)
+history: historial de comandos (0.5 puntos)
+help: ayuda (1 punto)
+
+Comandos built-in:
+cd: cambia de directorios
+exit: termina el shell
+history: devuelve el historial
+again: repite un comando del historial
+help: muestra esta ayuda 
+
+Tota: 5.5 puntos
+

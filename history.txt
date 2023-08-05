@@ -1,0 +1,6 @@
+Cuando se escribe cualquier comando (excepto los que inicien con espacio), este es guardado en un archivo llamado “historial”, cuando se ejecuta el comando history lo que pasa es que se abre dicho archivo, se lee toda la información que este tiene, separando cada línea como un comando diferente, luego se toman las 10 últimas y estas son las que son mostradas al usuario. El comando history también es guardado en historial.
+
+Intentamos limpiar el historial cada cierto tiempo o cada cierta cantidad de iteraciones, pero tuvimos algunos inconvenientes con la salida y entrada de información por lo que desechamos la idea, la forma de limpiar el historial es directamente borrar el archivo de la carpeta raíz.
+
+Si se inicia el comando con uno o muchos espacios este no es guardado en el historial, dichos espacios no son tomados como parte del comando.
+
