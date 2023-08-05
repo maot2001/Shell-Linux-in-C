@@ -1,8 +1,11 @@
 # Shell-Linux-in-C
 
-El proyecto esta estructurado de la siguiente manera:
+## Estructura
+
 1- Declaracion de librerias, metodos, const char* y variables globales que fueron utilizadas.
+
 2- Metodo main.
+
 3- Metodos previamente nombrados.
 
 1)
