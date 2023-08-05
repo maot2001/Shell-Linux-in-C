@@ -1,0 +1,8 @@
+Nuestro shell utiliza el método chdir para cambiar de directorio, pero los archivos que hay que utilizar del directorio donde se inicia el shell no se pierden, ya que la dirección inicial es guardada.
+
+Cuando se tiene el comando, este es separado por los espacios “ ”, pero si se identifica el comando cd los elementos siguientes a él son procesados para reconstruir el path en caso de que haya alguna carpeta cuyo nombre contenga espacios, lo único que hay que hacer es escribir un “\” antes de cada espacio en el path.
+
+EX: cd /mnt/c/SO/New\ Folder/Carpeta\ Ejemplo 
+Este comando es separado por espacios, pero al identificar la orden cd, es reconstruido y busca la dirección: \mnt\c\SO\New Folder\Carpeta Ejemplo en el ordenador para cambiarlo como directorio principal, en caso de no encontrarlo devuelve error.
+
+Si el comando cd es enviado en una pipe tenga en cuenta que este cambio se realizara por uno de los hijos del proceso inicial, pero como los procesos no comparten memoria, no se verá reflejado en el proceso inicial.
