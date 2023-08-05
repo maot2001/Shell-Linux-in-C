@@ -1,0 +1,3 @@
+Nuestro shell puede reutilizar comandos que ya realizó con again, este recibe un número del 1 al 10 y ejecuta ese comando según el número que sea en el historial, si se envía un número fuera de estos o cualquier otro carácter se devuelve error de sintaxis.
+
+El comando que se guarda en el historial es el llamado por again <number> en caso de existir, en caso contrario de dar error no es guardado en el historial.
